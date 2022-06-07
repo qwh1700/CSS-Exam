@@ -1,0 +1,25 @@
+main {
+    height: 500px;
+    border: 2px solid green;
+}
+
+.flex-container {
+    display: flex;
+    /* Fill in the blank with answer1*/
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto auto;
+    border: 2px dashed purple;
+    width: 500px;
+}
+
+.flex-container>div {
+
+    background-color: pink;
+    font-size: 30px;
+    border: 1px solid red;
+    color: blue;
+    padding: 30px;
+    margin: 20px;
+    /* Fill in the blank with answer3*/
+}
